@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #D3D3D3;
+    min-height: 100vh;
+    width: 100%;
+}
+
+h2 {
+    font: bold 20pt Arial;
+    color: white;
+
+}
+
+#boxh2 {
+    width: 160pt;
+    height: 25pt;
+    background-color: aliceblue;
+    border: 1px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10pt;
+    background-image: image-set('galaxia.jpg');
+    background-size: 100px;
+    position: absolute;
+    left: 43%;
+    top: 14rem;
+    border: solid 2px black
+}
+
+.boxh2 {
+    position: relative;
+}
+
+#centralnumbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    position: relative;
+    left: 4rem;
+}
+
+.ordenar {
+    display: flex;
+    justify-content: center;
+
+}
+
+h3 {
+    position: relative;
+    top: 5rem;
+    left: -14rem;
+    font: normal 20pt Arial;
+    padding-left: 4px;
+    padding-right: 4px;
+
+
+
+}
+
+.h31 {
+
+    left: -19.3rem;
+    top: 2.5rem;
+}
+
+.h32 {
+
+    left: -16.3rem;
+    top: 2.5rem;
+}
+
+.h33 {
+
+    left: -14rem;
+    top: 2.5rem;
+}
+
+.h34 {
+
+    left: -12rem;
+    top: 2.5rem;
+}
+
+h1 {
+    font: bold 40px Arial;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 2rem;
+}
+
+.title {
+
+    display: flex;
+    justify-content: center;
+    top: 4rem;
+    position: relative;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.clock {
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#e66465, #9198e5);
+    border: 1px solid #000;
+    border-radius: 30rem;
+    color: #fff;
+    display: flex;
+    font-size: 50px;
+    height: 125px;
+    width: 400px;
+
+}
