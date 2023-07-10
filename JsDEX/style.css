@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    height: 30rem;
+    width: auto;
+    background-image: url(Imagem.jpg);
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 70px;
+    color: white; 
+    font: bolder;
+    margin-top: 22rem;
+
+}
+
+.menu{
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(180, 38, 38);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.menu input{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: rgb(103, 0, 0);
+    padding: 0.2rem;
+    padding-inline: 1rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
