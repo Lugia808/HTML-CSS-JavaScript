@@ -76,12 +76,38 @@ h1{
 .des{
     justify-content: center;
     align-items: center;
+    display: flex   ;
+}
+
+
+.container_text{
     display: flex;
+    justify-content: center;
 }
 
 .textbox{
-    width: 40rem;
-    height: 50rem;
+    width: 60rem;
+    height: 30rem;
+    border-radius: 3rem;
     background-color: white;
-    text-align: center;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text_in_box_h2{
+    margin-top: 2rem;
+
+}
+
+#text_in_box_p{
+    margin-top: 1rem;
+
+}
+
+.textbox img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5rem;
 }
