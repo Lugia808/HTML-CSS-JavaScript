@@ -1,10 +1,15 @@
 
+//Aqui está todas as nossas variáveis. Defini elas como nula, vazio ou zero, pois assim que eu altera-la, consiga identificar sem erros.
+
 var num1 = null;
 var num2 = null;
 var op = '';
 var igual = 0
 var music = 0
 var audio = new Audio('barbie.mp3')
+
+//a função keypressed() detecta se alguma tecla foi clicada e digita a tecla no display
+
 function keypressed(n) {
     if (n === '.' && num1 !== null && op === '') {
         // Verifica se já existe um ponto decimal em num1
