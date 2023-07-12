@@ -16,6 +16,8 @@
 
 <body>
 
+
+<!--Aqui está a barra superior do site onde está escrito "calculadora"-->
     <header>
         <h1>
             <center> CALCULADORA </center>
@@ -23,21 +25,39 @@
         
     </header>
         
+    <!--Aqui temos o grupo que é responsável pela música dentro do site-->
+    <section>
+        <input type="button" value="🎵" onclick="musicplay()" class="music">
+        <audio src="barbie.mp3" autoplay></audio>
+    </section>
     
-    <input type="button" value="🎵" onclick="musicplay()" class="music">
-    <audio src="barbie.mp3" autoplay></audio>
-    
+    <!--Aqui há o container que é a "div pai", todas as outras div's estão dentro dela-->
+
     <div class="container">
+
+        <!--Na div barrinha há um botão X-->
+
         <div class="barrinha">
             <div>
                 <button>X</button>
             </div>
         </div>
+
+        <!--Aqui está todo o conjunto da calculadora. A div "calculadora" é a div pai de todas dentro dela-->
+
         <div class="calculadora">
+
+            <!--Display onde os números aparecem-->
+
             <div class="display">
                 <input type="text" class="display1" readonly><p id="display">0</p><input type="button" value="C" class="keyclear" onclick="limpar()">
             </div>
+
+            <!--Teclado, aqui está todas as teclas-->
+
             <div class="keyboard">
+
+                <!--Separei em várias div's, pois acredito que fique mais fácil de gerir-->
 
                 <div class="row1">
                     <table>
@@ -85,8 +105,6 @@
         </div>
 
     </div>
-
-    <!--eu estou comendo amoeba11tste--> 
 
 
 
