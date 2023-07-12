@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(194, 194, 194);
+}
+
+.content{
+    height: 30rem;
+    width: auto;
+    background-image: url(background.jpg);
+    display: flex;
+    flex-direction: column;
+    border-bottom: 50px solid rgb(0, 204, 255);
+    
+
+
+
+
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 70px;
+    color: white; 
+    font: bolder;
+    margin-top: 22rem;
+
+}
+
+.menu{
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(0, 204, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.menu input{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: rgb(0, 143, 215);
+    padding: 0.2rem;
+    padding-inline: 1rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+#logo{
+    height: 8rem;
+    width: 8rem;
+    zoom: 130%;
+    border-radius: 8rem;
+    margin-top: 16rem;
+    margin-left: 0.5rem;
+
+}
+
+.des{
+    justify-content: center;
+    align-items: center;
+    display: flex   ;
+}
+
+
+.container_text{
+    display: flex;
+    justify-content: center;
+}
+
+.textbox{
+    width: 60rem;
+    height: 30rem;
+    border-radius: 3rem;
+    background-color: white;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text_in_box_h2{
+    margin-top: 2rem;
+
+}
+
+#text_in_box_p{
+    margin-top: 1rem;
+
+}
+
+.textbox img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5rem;
+}
